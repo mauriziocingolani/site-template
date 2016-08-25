@@ -11,14 +11,14 @@
     "minimum-stability": "dev",
     "require": {
         "php": ">=5.4.0",
-        "yiisoft/yii2": "2.0.7",
+        "yiisoft/yii2": "2.0.9",
         "yiisoft/yii2-bootstrap": "*",
         "yiisoft/yii2-debug": "*",
         "yiisoft/yii2-gii": "*",
         "yiisoft/yii2-swiftmailer": "*",
         "yiisoft/yii2-jui": "*",
         "yiisoft/yii2-authclient": "*",
-        "mauriziocingolani/yii2-fmwk-php": "1.0.*",
+        "mauriziocingolani/yii2-fmwk-php": "*",
         "kartik-v/yii2-social": "*",
         "rmrevin/yii2-fontawesome": "*"
     },

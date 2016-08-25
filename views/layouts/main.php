@@ -22,10 +22,11 @@ MainAsset::register($this);
         <?php $this->registerMetaTag(['charset' => Yii::$app->charset]); ?>
         <?php $this->registerMetaTag(['name' => 'viewport', 'content' => 'width=device-width, initial-scale=1']); ?>
         <?php $this->registerMetaTag(['name' => 'description', 'content' => $this->pageDescription]); ?>
+        <?php $this->registerMetaTag(['name' => 'keywords', 'content' => $this->pageKeywords]); ?>
 
         <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
 
-        <link href="/images/favicon.ico" rel="icon" type="image/x-icon">
+        <?= $this->addFavicon(); ?>
 
         <!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
         <script type="text/javascript">
